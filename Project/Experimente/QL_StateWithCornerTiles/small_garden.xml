@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Garden width="7" height="5">
+	<MowerStartPosition x="0" y="0"/>
+	<Tiles>
+		<Tile x="0" y="0" type="Long grass"/>
+		<Tile x="1" y="0" type="Long grass"/>
+		<Tile x="2" y="0" type="Long grass"/>
+		<Tile x="3" y="0" type="Long grass"/>
+		<Tile x="4" y="0" type="Long grass"/>
+		<Tile x="5" y="0" type="Long grass"/>
+		<Tile x="6" y="0" type="Long grass"/>
+		<Tile x="0" y="1" type="Long grass"/>
+		<Tile x="1" y="1" type="Long grass"/>
+		<Tile x="2" y="1" type="Long grass"/>
+		<Tile x="3" y="1" type="Long grass"/>
+		<Tile x="4" y="1" type="Long grass"/>
+		<Tile x="5" y="1" type="Long grass"/>
+		<Tile x="6" y="1" type="Long grass"/>
+		<Tile x="0" y="2" type="Long grass"/>
+		<Tile x="1" y="2" type="Long grass"/>
+		<Tile x="2" y="2" type="Long grass"/>
+		<Tile x="3" y="2" type="Rock"/>
+		<Tile x="4" y="2" type="Long grass"/>
+		<Tile x="5" y="2" type="Long grass"/>
+		<Tile x="6" y="2" type="Long grass"/>
+		<Tile x="0" y="3" type="Long grass"/>
+		<Tile x="1" y="3" type="Long grass"/>
+		<Tile x="2" y="3" type="Long grass"/>
+		<Tile x="3" y="3" type="Long grass"/>
+		<Tile x="4" y="3" type="Long grass"/>
+		<Tile x="5" y="3" type="Long grass"/>
+		<Tile x="6" y="3" type="Long grass"/>
+		<Tile x="0" y="4" type="Long grass"/>
+		<Tile x="1" y="4" type="Long grass"/>
+		<Tile x="2" y="4" type="Long grass"/>
+		<Tile x="3" y="4" type="Long grass"/>
+		<Tile x="4" y="4" type="Long grass"/>
+		<Tile x="5" y="4" type="Long grass"/>
+		<Tile x="6" y="4" type="Long grass"/>
+	</Tiles>
+</Garden>

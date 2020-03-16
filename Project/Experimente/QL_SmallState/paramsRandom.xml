@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Params>
+  <SetupManager>
+    <ShowUI>true</ShowUI>
+    <AutoRun>true</AutoRun>
+  </SetupManager>
+
+  <EpisodeManager>
+    <EpisodeLimit> 40 </EpisodeLimit>
+  </EpisodeManager>
+
+  <StaticsticsWriter>
+    <StatisticsFileName>random_learner.csv</StatisticsFileName>
+  </StaticsticsWriter>
+  
+  <Mower>
+    <LearnerType>RandomLearner</LearnerType>
+	<EligibityTraces>false</EligibityTraces>
+	<Gamma>0.9</Gamma>
+  </Mower>
+
+  <QLearner>
+    <Greediness>0.75</Greediness>
+    <LearnRate>0.7</LearnRate>
+    <InitialQValue>0.0</InitialQValue>
+    <DiscountValue>1.0</DiscountValue>
+  </QLearner>
+</Params>

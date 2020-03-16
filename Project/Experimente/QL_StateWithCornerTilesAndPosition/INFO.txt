@@ -1,0 +1,11 @@
+#### Experiment ####
+
+Setting:
++ Gartenwelt: small_garden.xml
++ Lerner: QLearner
++ Zustand: Die 8 umgebenden Felder + Position des Mähers
+
+Vergleich von verschiedenen "Greediness"-Werten:
+0.5: paramsQL_low_greed.xml
+0.7: paramsQL_mid_greed.xml
+0.9: paramsQL_high_greed.xml

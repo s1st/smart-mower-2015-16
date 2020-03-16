@@ -1,0 +1,11 @@
+#### Experiment ####
+
+Setting:
++ Gartenwelt: small_garden.xml
++ Lerner: QLearner + Eligibility Traces (replacing)
++ Zustand: Nur die 4 umgebenden Felder
+
+Vergleich von verschiedenen "Greediness"-Werten:
+0.5: paramsElig_low_greed.xml
+0.7: paramsElig_mid_greed.xml
+0.9: paramsElig_high_greed.xml (musste abgebrochen werden, da es nicht terminierte)

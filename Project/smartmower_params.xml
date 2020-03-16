@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Params>
+  <SetupManager>
+    <ShowUI>true</ShowUI>
+    <AutoRun>true</AutoRun>
+	<ShowParamLabel>true</ShowParamLabel>
+  </SetupManager>
+
+  <EpisodeManager>
+    <EpisodeLimit> 100 </EpisodeLimit>
+    </EpisodeManager>
+
+  <StaticsticsWriter>
+    <StatisticsFileName>stats.csv</StatisticsFileName>
+  </StaticsticsWriter>
+  
+  <Mower>
+    <LearnerType>QLearner</LearnerType>
+    <MowReward>10.0</MowReward>
+    <NotMownReward>-1.0</NotMownReward>
+    <EligibityTraces>false</EligibityTraces>
+    <Gamma>0.9</Gamma>
+	<EligibilityTableDeserialiaztionFile></EligibilityTableDeserialiaztionFile>
+	<EligibilityTableSerialiaztionFile></EligibilityTableSerialiaztionFile>
+    <ModelPlanning>true</ModelPlanning>
+    <Refined>true</Refined>
+    <ModelTableDeserialiaztionFile></ModelTableDeserialiaztionFile>
+    <ModelTableSerialiaztionFile>modeltable.xml</ModelTableSerialiaztionFile>
+    <N>100</N>
+  </Mower>
+
+  <QLearner>
+    <Greediness>0.9</Greediness>
+    <LearnRate>0.9</LearnRate>
+    <InitialQValue>0</InitialQValue>
+    <DiscountValue>0.8</DiscountValue>
+    <QTableDeserialiaztionFile></QTableDeserialiaztionFile>
+    <QTableSerialiaztionFile>qtable.xml</QTableSerialiaztionFile>
+  </QLearner>
+</Params>

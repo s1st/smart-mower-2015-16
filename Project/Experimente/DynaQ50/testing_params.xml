@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Params>
+  <SetupManager>
+    <ShowUI>true</ShowUI>
+    <AutoRun>true</AutoRun>
+	<ShowParamLabel>true</ShowParamLabel>
+  </SetupManager>
+
+  <EpisodeManager>
+    <EpisodeLimit>50</EpisodeLimit>
+  </EpisodeManager>
+
+  <StaticsticsWriter>
+    <StatisticsFileName>stats.csv</StatisticsFileName>
+  </StaticsticsWriter>
+  
+  <Mower>
+    <LearnerType>QLearner</LearnerType>
+    <MowReward>10.0</MowReward>
+    <NotMownReward>-1.0</NotMownReward>
+    <EligibityTraces>false</EligibityTraces>
+    <Gamma>0.1</Gamma>
+    <ModelPlanning>true</ModelPlanning>
+	<Refined>false</Refined>
+    <N>50</N>
+  </Mower>
+
+  <QLearner>
+    <Greediness>0.8</Greediness>
+    <LearnRate>0.7</LearnRate>
+    <InitialQValue>0</InitialQValue>
+    <DiscountValue>1.0</DiscountValue>
+  </QLearner>
+</Params>
